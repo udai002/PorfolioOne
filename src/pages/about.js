@@ -59,7 +59,7 @@ const about = () => {
                         every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
                 </div>
                 <div className='col-span-3 rounded-2xl relative h-max border-2 border-dark bg-light p-8'>
-                    <Image src={profilePic} className='h-auto w-full rounded-2xl' />
+                    <Image src={profilePic} alt='porfile' className='h-auto w-full rounded-2xl' />
                 </div>
                 <div className='col-span-2 flex flex-col justify-between items-center'>
                     <div className='flex flex-col justify-center items-end'>
