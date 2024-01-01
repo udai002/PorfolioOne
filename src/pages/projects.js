@@ -37,7 +37,7 @@ const projects = () => {
     const Project = ({ type, title, summary, img, link, github }) => {
         return <article className='w-full flex flex-col items-center justify-between rounded-2xl border-2 border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:text-light dark:border-light '>
             <Link href={link} className='w-full cursor-pointer overflow-hidden rounded-lg'>
-                <FramerImage src={img} className='w-full h-auto ' whileHover={{ scale: 0.9 }} />
+                <FramerImage src={img} alt={title} className='w-full h-auto ' whileHover={{ scale: 0.9 }} />
             </Link>
             <div className='w-full flex flex-col items-start justify-between pl-6'>
                 <span className='text-primary font-medium text-2xl'>{type}</span>
