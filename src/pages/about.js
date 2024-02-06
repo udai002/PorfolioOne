@@ -46,7 +46,7 @@ const about = () => {
             <Layout className="pt-16">
                 <AnimatedText text={"Passsion fuels the Purpose!"} />
             </Layout>
-            <div className="grid grid-cols-8 gap-16 w-full p-10">
+            {/* <div className="grid grid-cols-8 gap-16 w-full p-10">
                 <div className="col-span-3 flex flex-col items-start justify-start text-lg">
                     <h1 className="text-dark/75 font-bold text-lg uppercase my-4">Biography</h1>
                     <p className="font-medium py-4">Hi, I am Squart, a web developer and UI/UX designer with a passion for creating beautiful, functional,
@@ -75,7 +75,7 @@ const about = () => {
                         <h1 className="text-medium text-dark capitalize dark:text-light">Years of Experience</h1>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Skills/>
             <Education/>
         </div>
