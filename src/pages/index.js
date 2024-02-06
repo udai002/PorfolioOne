@@ -21,7 +21,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-8 p-32'>
           <div className="flex items-center justify-between w-full lg:flex-wrap ">
             <div className='w-full'>
-              <Image src={profilePic} alt='**profile image***' className='w-full h-auto'  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority />
+              <Image src={profilePic} alt='' className='w-full h-auto'  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority />
             </div>  
             <div className='w-full'>
               <AnimatedText text={'Turning Vision Into Reality With Code And Design.'} className='!text-5xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl '/>
